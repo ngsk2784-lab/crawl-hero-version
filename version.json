@@ -1,0 +1,7 @@
+{
+  "min_version": "0.2.0",
+  "latest_version": "0.2.0",
+  "store_url_default": "https://example.com/download",
+  "message_hard": "최신 버전으로 업데이트가 필요합니다.",
+  "message_soft": "새 버전이 있습니다."
+}
