@@ -1,0 +1,155 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Crawl Hero 개인정보처리방침</title>
+<style>
+  body { font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif;
+         max-width: 760px; margin: 0 auto; padding: 24px; line-height: 1.6;
+         color: #1a1a1a; background: #fafafa; }
+  h1 { border-bottom: 2px solid #c0a060; padding-bottom: 8px; }
+  h2 { margin-top: 32px; color: #5a4020; }
+  table { border-collapse: collapse; width: 100%; margin: 12px 0; }
+  th, td { border: 1px solid #ccc; padding: 8px 12px; text-align: left; }
+  th { background: #f0e8d0; }
+  code { background: #eee; padding: 1px 4px; border-radius: 3px; }
+  .lang-switch { float: right; }
+  .lang-switch a { color: #5a4020; text-decoration: none; }
+</style>
+</head>
+<body>
+
+<div class="lang-switch"><a href="#en">English ↓</a></div>
+
+<h1>Crawl Hero 개인정보처리방침</h1>
+<p><strong>최종 수정일:</strong> 2026-05-27</p>
+
+<h2>1. 수집하는 개인정보 항목</h2>
+<table>
+  <tr><th>항목</th><th>수집 시점</th><th>이용 목적</th></tr>
+  <tr><td>Google 계정 이메일</td><td>로그인 시</td><td>계정 식별</td></tr>
+  <tr><td>Google 사용자 ID (UID)</td><td>로그인 시</td><td>계정 식별, 클라우드 세이브 키</td></tr>
+  <tr><td>게임 진행 데이터 (레벨, 골드, 인벤토리, 통계)</td><td>플레이 중</td><td>클라우드 세이브, 랭킹</td></tr>
+  <tr><td>표시 이름</td><td>로그인 시</td><td>랭킹 표시</td></tr>
+</table>
+
+<h2>2. 수집 방법</h2>
+<ul>
+  <li>Google OAuth 2.0을 통한 로그인 (Supabase Authentication 사용)</li>
+  <li>게임 플레이 중 자동으로 수집되는 진행 데이터</li>
+</ul>
+
+<h2>3. 보관 및 처리</h2>
+<ul>
+  <li><strong>저장 위치:</strong> Supabase (한국 리전, AWS 인프라)</li>
+  <li><strong>전송:</strong> 모든 트래픽 HTTPS/TLS 암호화</li>
+  <li><strong>접근 제어:</strong> Row Level Security로 본인 데이터만 접근 가능</li>
+  <li><strong>보관 기간:</strong> 계정 삭제 시까지. 계정 삭제 후 즉시 영구 삭제</li>
+</ul>
+
+<h2>4. 제3자 제공</h2>
+<p>개인정보를 제3자에게 제공하지 않습니다. 단, 다음 서비스 제공자가 데이터 처리를 위해 접근합니다:</p>
+<ul>
+  <li><strong>Google LLC</strong> — OAuth 인증</li>
+  <li><strong>Supabase Inc.</strong> — 데이터베이스 호스팅</li>
+</ul>
+
+<h2>5. 이용자 권리</h2>
+<p>이용자는 다음 권리를 행사할 수 있습니다:</p>
+<ul>
+  <li><strong>열람:</strong> 게임 내 통계 화면에서 본인 데이터 확인</li>
+  <li><strong>정정:</strong> 게임 내에서 직접 수정 (장비, 캐릭터 등)</li>
+  <li><strong>삭제:</strong> 게임 내 <code>설정 → 데이터 초기화</code>로 즉시 영구 삭제 (로컬 + 클라우드)</li>
+  <li><strong>철회:</strong> 로그아웃 후 앱 삭제</li>
+</ul>
+
+<h2>6. 쿠키 / 트래커</h2>
+<p>본 게임은 광고, 분석 트래커, 쿠키를 사용하지 않습니다.</p>
+
+<h2>7. 아동 개인정보</h2>
+<p>본 게임은 만 13세 미만 아동을 대상으로 하지 않습니다. 13세 미만이 등록한 사실을 알게 될 경우 즉시 해당 계정 데이터를 삭제합니다.</p>
+
+<h2>8. 보안</h2>
+<ul>
+  <li>전송 구간: TLS 1.2+</li>
+  <li>저장 구간: Supabase Postgres 암호화</li>
+  <li>인증: Google OAuth + JWT 토큰</li>
+  <li>접근 제어: Row Level Security 정책</li>
+</ul>
+
+<h2>9. 정책 변경</h2>
+<p>본 방침이 변경될 경우 앱 내 알림 또는 본 페이지를 통해 공지합니다.</p>
+
+<h2>10. 문의</h2>
+<p>개인정보 관련 문의는 다음으로 연락 바랍니다:</p>
+<p><strong>이메일:</strong> ngsk2784@gmail.com</p>
+
+<hr id="en">
+
+<div class="lang-switch"><a href="#top">↑ 한국어</a></div>
+
+<h1>Crawl Hero Privacy Policy</h1>
+<p><strong>Last updated:</strong> 2026-05-27</p>
+
+<h2>1. Information We Collect</h2>
+<table>
+  <tr><th>Item</th><th>When</th><th>Purpose</th></tr>
+  <tr><td>Google account email</td><td>On sign-in</td><td>Account identification</td></tr>
+  <tr><td>Google user ID (UID)</td><td>On sign-in</td><td>Account ID, cloud save key</td></tr>
+  <tr><td>Game progress data</td><td>While playing</td><td>Cloud save, leaderboard</td></tr>
+  <tr><td>Display name</td><td>On sign-in</td><td>Leaderboard display</td></tr>
+</table>
+
+<h2>2. How We Collect</h2>
+<ul>
+  <li>Google OAuth 2.0 sign-in (via Supabase Authentication)</li>
+  <li>Automatic collection of gameplay progress while playing</li>
+</ul>
+
+<h2>3. Storage &amp; Processing</h2>
+<ul>
+  <li><strong>Location:</strong> Supabase (Seoul region, AWS infrastructure)</li>
+  <li><strong>Transit:</strong> All traffic encrypted via HTTPS/TLS</li>
+  <li><strong>Access control:</strong> Row Level Security — only the account owner can access their data</li>
+  <li><strong>Retention:</strong> Until account deletion. Permanently erased immediately upon deletion.</li>
+</ul>
+
+<h2>4. Third-Party Sharing</h2>
+<p>We do not share personal data with third parties. Data is only processed by the following service providers:</p>
+<ul>
+  <li><strong>Google LLC</strong> — OAuth authentication</li>
+  <li><strong>Supabase Inc.</strong> — database hosting</li>
+</ul>
+
+<h2>5. User Rights</h2>
+<ul>
+  <li><strong>Access:</strong> View your own data in the in-game Stats screen</li>
+  <li><strong>Correction:</strong> Modify directly in-game (gear, character, etc.)</li>
+  <li><strong>Deletion:</strong> <code>Settings → Reset Data</code> permanently deletes local + cloud immediately</li>
+  <li><strong>Withdrawal:</strong> Sign out and uninstall the app</li>
+</ul>
+
+<h2>6. Cookies / Trackers</h2>
+<p>This game does not use ads, analytics trackers, or cookies.</p>
+
+<h2>7. Children's Privacy</h2>
+<p>This game is not directed at children under 13. If we become aware that a child under 13 has registered, we will immediately delete that account's data.</p>
+
+<h2>8. Security</h2>
+<ul>
+  <li>Transit: TLS 1.2+</li>
+  <li>At rest: Supabase Postgres encryption</li>
+  <li>Authentication: Google OAuth + JWT tokens</li>
+  <li>Access control: Row Level Security policies</li>
+</ul>
+
+<h2>9. Policy Changes</h2>
+<p>If this policy changes, we will notify users in-app or via this page.</p>
+
+<h2>10. Contact</h2>
+<p>For privacy inquiries, contact:</p>
+<p><strong>Email:</strong> ngsk2784@gmail.com</p>
+
+</body>
+</html>
